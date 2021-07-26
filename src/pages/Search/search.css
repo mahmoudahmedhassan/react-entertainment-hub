@@ -1,0 +1,38 @@
+ .part_search{
+   padding-top: 70px;
+   display: flex;
+   justify-content: center;
+ }
+ .text_field{
+   width: 70%;
+   }
+
+
+
+ .tabs{
+    position: relative;
+    margin-top: 50px;
+    width: 70%;
+    margin: auto;
+    padding-top: 125px;
+    
+ }
+ .tabs .Tabs{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+     transform: translate(-50%, -50%);
+     width: 100%;
+ }
+ 
+ .tap_1{
+   width: "50%";
+    color: "#fff";
+    font-size: "9px"
+ }
+
+ .tap_2{
+   width: "50%";
+   color: "#fff";
+   font-size: "9px"
+ }

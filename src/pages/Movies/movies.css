@@ -1,0 +1,44 @@
+.discover_movies{
+    margin-bottom:'50px';
+    color:'#fff';
+    padding: 35px;
+    font-size: 40px;
+
+}
+
+
+@media(max-width:800px){
+    .discover_movies{
+        font-size:28px;
+        padding-bottom: 20px;
+    }
+}
+  @media(min-width:801px) and (max-width:1100px){
+    .discover_movies{
+        font-size: 60px;
+        padding: 40px;
+    }
+}   
+
+@media (min-width:1668px) and (max-width:1900px){
+    .discover_movies{
+        font-size: 80px;
+        padding: 50px;
+    }
+}
+
+@media (min-width:1991px) and (max-width:2456px){
+    .discover_movies{
+        font-size: 80px;
+        padding-top: 80px;
+    }
+}
+
+
+@media (min-width:2457px) {
+    .discover_movies{
+        padding-top: 115px;
+        font-size: 80px;
+    }
+}
+ 

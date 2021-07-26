@@ -1,0 +1,43 @@
+.trending_today{
+    margin-bottom:'50px';
+    color:'#fff';
+    padding: 35px;
+    font-size: 40px;
+
+}
+
+@media(max-width:800px){
+    .trending_today{
+        font-size:29px;
+        padding-bottom: 20px;
+    }
+}
+  @media(min-width:801px) and (max-width:1100px){
+    .trending_today{
+        font-size: 60px;
+        padding: 40px;
+    }
+}   
+
+@media (min-width:1668px) and (max-width:1900px){
+    .trending_today{
+        font-size: 80px;
+        padding: 50px;
+    }
+}
+
+@media (min-width:1991px) and (max-width:2456px){
+    .trending_today{
+        font-size: 80px;
+        padding-top: 80px;
+    }
+}
+
+
+@media (min-width:2457px) {
+    .trending_today{
+        padding-top: 115px;
+        font-size: 80px;
+    }
+}
+ 
