@@ -47,7 +47,7 @@ function Movies() {
                     poster={el.poster_path}
                     vote={el.vote_average}
                     data={el.first_air_date || el.release_date}
-                    move_type="Movies"
+                    move_type="movie"
                   />
                 </Col>
  

@@ -113,12 +113,13 @@ const Search = () => {
               <Col xs={12} sm={6} md={4} lg={3}>
                 <SingleItem
                   key={el.id}
+                  id={el.id}
                   title={el.title || el.name}
                   poster={el.poster_path}
                   vote={el.vote_average || el.first_air_date}
                   data={el.release_date}
-                  move_type={type ? "tv" : "movies"}
-                />
+                  move_type={type ?"movie" :"tv" } 
+                  />
                </Col>
             ))}
  

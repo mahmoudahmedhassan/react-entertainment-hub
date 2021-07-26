@@ -49,11 +49,12 @@ function Series() {
                 <Col xs={12} sm={6} md={4} lg={3}>
                   <SingleItem
                     key={el.id}
+                    id={el.id}
                     title={el.title || el.name}
                     poster={el.poster_path}
                     vote={el.vote_average}
                     data={el.first_air_date || el.release_date}
-                    move_type="TV Series"
+                    move_type="tv"
                   />
                 </Col>
               ))}
