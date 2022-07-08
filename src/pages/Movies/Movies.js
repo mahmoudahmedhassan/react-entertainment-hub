@@ -4,18 +4,13 @@ import axios from "axios";
 import SingleItem from "../../Compoents/SingleItem/SingleItem";
 import { Container, Row, Col } from "react-bootstrap";
 import CustomPagination from "../../Compoents/Pagination/CustomPagination";
-import Genres from "../../Compoents/genres/Genres";
 import "./movies.css";
-import useGenre from '../../hooks/useGenre';
-
+ 
 function Movies() {
   const [movieData, setMoviesData] = useState([]);
   const [page, setPage] = useState();
   const [numberPage, setNumberPage] = useState();
-  // const [genres, setGenres] = useState();
-  const [selecterGenres, setSelecterGenres] = useState();
-  // const genreforURL = useGenre(selecterGenres);
-
+  
   const fetchMovies = async () => {
     const { data } = await axios.get(
       `https://api.themoviedb.org/3/discover/movie?api_key=8ec65a9de686234cda5ca905a69e7c70&page&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=${page}`

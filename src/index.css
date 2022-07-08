@@ -11,6 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+a{
+  color: #fff !important;
+}
+.Mui-selected{
+  color: #fff !important;
+}
 
 .loading{
   display: flex;

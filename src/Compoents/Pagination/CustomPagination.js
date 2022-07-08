@@ -17,6 +17,7 @@ const darkTheme = createMuiTheme({
  
   const handleChange = (e) => {
     setPage(e.target.textContent);
+    console.log(`wwwwwww ${(e.target.textContent)}`)
     window.scroll(0, 0);
   };
 

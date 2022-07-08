@@ -35,7 +35,8 @@ const Carousel = ({ id, media_type }) => {
 
   useEffect(() => {
     fetchCredits();
-   }, []);
+   }, [])
+
 
    const responsive = {
     0: {

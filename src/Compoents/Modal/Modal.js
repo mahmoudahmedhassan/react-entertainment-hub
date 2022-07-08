@@ -18,6 +18,7 @@ import Image from "react-bootstrap/Image";
 
 // import css file
 import "./modal.css";
+// let backGroundColor ="#39445A";
 
 const useStyles = makeStyles((theme) => ({
   modal: {
@@ -27,11 +28,11 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
   },
   content_modal: {
-    backgroundColor: theme.palette.background.paper,
-    boxShadow: theme.shadows[5],
+    backgroundColor: theme.palette.background.paper, 
+    boxShadow:[ theme.shadows[5],"0 0 0 10p #fff"],
     padding: theme.spacing(2, 4, 3),
-    width: "90%",
-    height: "auto",
+    // width: "90%",
+    // height: "auto",
     backgroundColor: "#39445A",
     color: "white",
     boxShadow: "0 0 0 10p #fff",
